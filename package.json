@@ -1,5 +1,5 @@
 {
-  "name": "@propel/eslint-config",
+  "name": "@propelinc/eslint-config",
   "version": "1.0.0",
   "description": "Shared ESLint config for Propel's frontend apps",
   "main": "index.js",
