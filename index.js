@@ -13,14 +13,14 @@ module.exports = {
     'import/ignore': ['node_modules'],
   },
   extends: [
-    'plugin:vue/recommended',
     '@vue/standard',
     '@vue/typescript',
     'eslint:recommended',
     'plugin:import/recommended',
     'plugin:import/typescript',
-    'prettier/vue',
     'plugin:prettier/recommended',
+    'plugin:vue/recommended',
+    'prettier/vue',
   ],
   rules: {
     'capitalized-comments': [
