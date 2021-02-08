@@ -1,17 +1,5 @@
 module.exports = {
   plugins: ['@typescript-eslint', 'no-only-tests', 'prettier'],
-  settings: {
-    'import/internal-regex': '^(@|.|..)/',
-    'import/resolver': {
-        'alias': {
-            'map': [
-                ['@', `${__dirname}/src`]
-            ],
-            'extensions': ['.js', '.ts', '.vue']
-        }
-    },
-    'import/ignore': ['node_modules'],
-  },
   extends: [
     '@vue/standard',
     '@vue/typescript',
@@ -22,6 +10,10 @@ module.exports = {
     'plugin:vue/recommended',
     'prettier/vue',
   ],
+  settings: {
+    'import/internal-regex': '^(@|.|..)/',
+    'import/ignore': ['node_modules'],
+  },
   rules: {
     'capitalized-comments': [
       'error',

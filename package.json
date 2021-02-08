@@ -1,6 +1,6 @@
 {
   "name": "@propelinc/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "description": "Shared ESLint config for Propel's frontend apps",
   "main": "index.js",
   "repository": {
@@ -15,23 +15,22 @@
   },
   "homepage": "https://github.com/propelinc/eslint-config#readme",
   "peerDependencies": {
-    "eslint": ">= 6.8.0",
-    "prettier": "^2.2.1"
-  },
-  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.14.0",
     "@typescript-eslint/parser": "^4.9.0",
-    "@typescript-eslint/typescript-estree": "^4.9.0",
-    "@vue/eslint-config-standard": "^5.1.2",
-    "@vue/eslint-config-typescript": "^7.0.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint": ">= 6.8.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-no-only-tests": "^2.4.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^5.0.0",
-    "eslint-plugin-vue": "^7.5.0"
+    "eslint-plugin-vue": "^7.5.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-import-resolver-webpack": "0.13.0"
   }
 }
