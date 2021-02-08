@@ -14,7 +14,7 @@ module.exports = {
     'import/internal-regex': '^(@|.|..)/',
     'import/resolver': {
       webpack: {
-        config: 'node_modules/@vue/cli-service/webpack.config.js',
+        config: './node_modules/@vue/cli-service/webpack.config.js',
       },
     },
     'import/ignore': ['node_modules'],
