@@ -12,6 +12,11 @@ module.exports = {
   ],
   settings: {
     'import/internal-regex': '^(@|.|..)/',
+    'import/resolver': {
+      webpack: {
+        config: 'node_modules/@vue/cli-service/webpack.config.js',
+      },
+    },
     'import/ignore': ['node_modules'],
   },
   rules: {
