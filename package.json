@@ -30,7 +30,7 @@
   "dependencies": {
     "@vue/eslint-config-standard": "^5.1.2",
     "@vue/eslint-config-typescript": "^7.0.0",
-    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-prettier": "^7.2.0",
     "eslint-import-resolver-webpack": "0.13.0"
   }
 }
