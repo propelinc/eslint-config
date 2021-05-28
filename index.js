@@ -68,7 +68,13 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/no-redeclare': 'error',
-    '@typescript-eslint/no-unused-vars': 'error',
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        'argsIgnorePattern': '^_',
+        'ignoreRestSiblings': true,
+      },
+    ],
     '@typescript-eslint/no-use-before-define': 'error',
     'vue/padding-line-between-blocks': ['error', 'always'],
     'vue/html-self-closing': ['error', { html: { void: 'any' } }],
@@ -88,4 +94,4 @@ module.exports = {
   parserOptions: {
     parser: '@typescript-eslint/parser',
   },
-}
+};
