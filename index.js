@@ -52,6 +52,7 @@ module.exports = {
     'no-only-tests/no-only-tests': 'error',
     'no-redeclare': 'off',
     'no-restricted-syntax': ['error', 'CallExpression[callee.name="Error"]'],
+    'no-undef': 'off',
     'no-unused-vars': 'off',
     'no-use-before-define': 'off',
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
